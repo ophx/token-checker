@@ -55,6 +55,7 @@ if __name__ == "__main__":
 
     with open("./tokens.txt", "r") as file:
         totalTokens = len(file.readlines())
+        file.seek(0)
         RPC.update(details=f"Checking {totalTokens} discord tokens...", state="discord.gg/nsc", start=time())
         c.alphaPrint("", f"[{timestamp}] Checking {totalTokens} discord tokens...")
 
