@@ -11,7 +11,6 @@ from pypresence import Presence # https://pypi.org/project/pypresence/ (by @qwer
 # discord rpc
 RPC = Presence("1207858419411849226")
 RPC.connect()
-RPC.update(details="Checking discord tokens...", state="discord.gg/nsc", start=time())
 
 
 
