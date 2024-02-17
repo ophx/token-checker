@@ -3,7 +3,7 @@ a simple ass discord token checker i made
 <br>
 i was bored as a mf lmao
 <br>
-made with python 3.31.1
+made with python 3.12.1
 
 # Get Started
 Run this to install the required packages
