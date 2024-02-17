@@ -71,6 +71,9 @@ if __name__ == "__main__":
                 userLocale = user["locale"]
 
                 c.alphaPrint("", f"[{timestamp}] [VALID] ID: {userId} | Email: {userEmail} | Username: {userName} | Locale: {userLocale}")
+
+                with open("./valid.txt", "w") as f:
+                    f.write(f"Token: {token} | ID: {userId} | Email: {userEmail} | Username: {userName} | Locale: {userLocale}")
             else:
                 c.alphaPrint("", f"[{timestamp}] [INVALID] {token}")
 
